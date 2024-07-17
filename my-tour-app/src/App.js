@@ -2,6 +2,8 @@
 
 import React, {useState, useEffect, createContext} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Gallery from './Gallery';
+import './App.css';
 
 export const TourContext = createContext();
 
